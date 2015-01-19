@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>nerds-catalog</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="http://fonts.googleapis.com/css?family=Roboto:500,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/symbols-nerds.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="catalog-header">
+    <div class="layout-center-wrapper">
+      <div class="top-menu">
+        <a href="index.html" class="logo">
+          <img src="images/logo-main.png" alt="логотип нердс">
+        </a>
+        <div class="basket">
+          <a href="#" class="icon-basket">корзина</a>
+        </div>
+        <ul class="top-nav">
+          <li><a class="active" href="index.html">студия</a></li>
+          <li><a href="#">клиенты</a></li>
+          <li><a href="catalog.html">магазин</a></li>
+          <li><a href="#">контакты</a></li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+      <div class="page-title">
+        Добро пожаловать в магазин готовых макетов
+      </div>
+    </div>
+  </header>
+  <div class="layout-center-wrapper">
+    <div class="left-block">
+      <div class="toggle">
+        <div class="select-title">Стоимость:</div>
+          <div class="toggle-control">
+            <div class="scale">
+              <div style="width:70%;" class="bar"></div>
+            </div>
+            <div class="toggle min-toggle"></div>
+            <div class="toggle max-toggle"></div>
+          </div>
+          <div class="price-field">
+            От<input class="min-price" type="text" placeholder="0">
+            До<input  class="max-price" type="text" placeholder="15 000">
+          </div>
+      </div>
+      <div class="radio-select">
+        <div class="select-title">Сетка:</div>
+        <label for="radio-1" class="radio-button">
+          <input type="radio" name="radio" value="adaptive" id="radio-1" checked>
+        </label>
+        <p class="icon-circle-dot">Адаптивная</p>
+        <label for="radio-2" class="radio-button">
+          <input type="radio" name="radio" value="fixed" id="radio-2">
+        </label>
+        <p class="icon-circle">Фиксированная</p>
+        <label for="radio-3" class="radio-button">
+          <input type="radio" name="radio" value="rubber" id="radio-3">
+        </label>
+        <p class="icon-circle">Резиновая</p>
+      </div>
+      <div class="checkbox-select">
+        <div class="select-title">Особенности:</div>
+        <label for="checkbox-1" class="checkbox-button">
+          <input type="checkbox" name="checkbox" value="slider" id="checkbox-1">
+        </label>
+        <p class="icon-check-on">Слайдер</p>
+        <label for="checkbox-2" class="checkbox-button">
+          <input type="checkbox" name="checkbox" value="advantage" id="checkbox-2">
+        </label>
+        <p class="icon-check-off">Блок преимуществ</p>
+        <label for="checkbox-3" class="checkbox-button">
+          <input type="checkbox" name="checkbox" value="news" id="checkbox-3">
+        </label>
+        <p class="icon-check-on">Новости</p>
+        <label for="checkbox-4" class="checkbox-button">
+          <input type="checkbox" name="checkbox" value="galery" id="checkbox-4">
+        </label>
+        <p class="icon-check-off">Галерея</p>
+        <label for="checkbox-5" class="checkbox-button">
+          <input type="checkbox" name="checkbox" value="basket" id="checkbox-5">
+        </label>
+        <p class="icon-check-off">Корзина</p>
+      </div>
+    </div>
+    <div class="right-block">
+      <div class="product-nav">
+        <div class="sort"><p>Сортировать:</p>
+          <a href="#">По цене</a>
+          <a href="#">По типу</a>
+          <a href="#">По функционалу</a>
+        </div>
+        <div class="switcher">
+          <a href="#" class="active icon-down-dir"></a>
+          <a href="#" class="icon-up-dir"></a>
+        </div>
+      </div>
+      <div class="product-block">
+        <div class="product-details">
+          <div class="product-browser"></div>
+          <div class="product-pic">
+          <div class="product-description">
+             <div class="product-title">Sunset</div>
+             <p class="product-description-content">Интернет-магазин<br> с личным кабинетом</p>
+              <a href="#" class="buy-button">10 000 р.</a>
+          </div>
+          <img src="images/product1.jpg" alt="пример работы">
+          </div>
+        </div>
+        <div class="product-details">
+          <div class="product-browser"></div>
+          <div class="product-pic">
+          <div class="product-description">
+             <div class="product-title">Sunset</div>
+             <p class="product-description-content">Интернет-магазин<br> с личным кабинетом</p>
+              <a href="#" class="buy-button">10 000 р.</a>
+          </div>
+          <img src="images/product2.jpg" alt="пример работы">
+          </div>
+        </div>
+        <div class="product-details">
+          <div class="product-browser"></div>
+          <div class="product-pic">
+          <div class="product-description">
+             <span class="product-title">Sunset</span>
+             <p class="product-description-content">Интернет-магазин<br> с личным кабинетом</p>
+              <a href="#" class="buy-button">10 000 р.</a>
+          </div>
+          <img src="images/product3.jpg" alt="пример работы">
+        </div>
+        </div>
+        <div class="product-details">
+          <div class="product-browser"></div>
+          <div class="product-pic">
+          <div class="product-description">
+             <div class="product-title">Sunset</div>
+             <p class="product-description-content">Интернет-магазин<br> с личным кабинетом</p>
+              <a href="#" class="buy-button">10 000 р.</a>
+          </div>
+          <img src="images/product4.jpg" alt="пример работы">
+        </div>
+        </div>
+        <div class="product-details">
+          <div class="product-browser"></div>
+          <div class="product-pic">
+          <div class="product-description">
+             <div class="product-title">Sunset</div>
+             <p class="product-description-content">Интернет-магазин<br> с личным кабинетом</p>
+              <a href="#" class="buy-button">10 000 р.</a>
+          </div>
+          <img src="images/product5.jpg" alt="пример работы">
+        </div>
+        </div>
+        <div class="product-details">
+          <div class="product-browser"></div>
+          <div class="product-pic">
+          <div class="product-description">
+             <div class="product-title">Sunset</div>
+             <p class="product-description-content">Интернет-магазин<br> с личным кабинетом</p>
+              <a href="#" class="buy-button">10 000 р.</a>
+          </div>
+          <img src="images/product6.jpg" alt="пример работы">
+        </div>
+        </div>
+        <div class="paginator">
+          <ul>
+            <li><a class="active-button" href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li class="next-btn"><a href="#">Следующая</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="map">
+    <div class="layout-center-wrapper">
+      <div class="contacts-block">
+        <p class="contact-title"><span class="firstword">NЁRDS</span> design studio</p>
+        <p>350000,Краснодар,<br>
+        ул.Головатого, 100</p>
+        <p>тел. +7(861) 275-75-75</p>
+        <a href="#" class="contact-button">Напишите нам</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="layout-center-wrapper">
+      <div class="social-buttons">
+        <a href="http://vk.com" class="icon-vk">
+        </a>
+        <a href="http://fb.com" class="icon-facebook">
+        </a>
+        <a href="http://instagram.com" class="icon-instagramm">
+        </a>
+      </div>
+      <div class="discount">
+        <p class="discount-title">Давайте дружить, это выгодно!</p>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+  </footer>
+  <div class="write-us-popup">
+    <div class="popup-show"></div>
+    <a class="close-popup">X</a>
+    <form action="/action" method="post">
+     <label for="name">Ваше имя:</label>
+      <input class="name-field" type="text" name="name" value placeholder="представьтесь,пожалуйста">
+      <label for="mail">Ваш e-mail:</label>
+      <input class="mail-field" type="text" name="mail" value placeholder="для отправки ответа">
+      <div class="textarea">
+      <p>Текст письма:</p>
+      <textarea rows="5" name="text" placeholder="В СВОБОДНОЙ ФОРМЕ"></textarea>
+      </div>
+      <input type="submit" name="submit" value="Отправить">
+      <input type="reset" name="reset" value="Отмена">
+    </form>
+  </div>
+  <script src="js/write-us-form.js"></script>
+</body>
+</html>
