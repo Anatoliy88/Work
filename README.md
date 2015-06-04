@@ -1,2 +1,2 @@
-# Work
-some work
+# Nerds
+Учебный макет HTML Academy
